@@ -11,7 +11,7 @@ def main():
     # gets API Key from environment variable OPENAI_API_KEY
     client = OpenAI(
         base_url="https://openrouter.ai/api/v1",
-        api_key=getenv("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"),
+        api_key=getenv("sk-or-v1"),
     )
 
     user_query = st.text_input("Enter your query")
